@@ -443,7 +443,7 @@
             <p class="sub-text">Subscribe</p>
             <form class="sub-form">
               <input type="text" class="sub-input" name="email" placeholder="E-mail"/>
-              <button class="fly-btn">Subscribe 
+              <button type="submit" class="fly-btn">Subscribe 
                 <svg class="fly-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-Fly"></use>
                 </svg>
@@ -454,8 +454,22 @@
         </div>
       
     </footer>
-    <div class="backdrop isopen">
-      <div class="modal"></div>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button type="button" class="close-btn">
+          <svg class="x-btn" width="8" height="8">
+            <use href="./images/icons.svg#icon-X"></use>
+          </svg>
+        </button>
+        <p class="section-text modal-text">Leave your contacts and we will call you back</p>
+          <form class="modal-form">
+            <label for="use-name">Name</label>
+            <input type="text" class="modal-input" name="use-name" ></form>
+          <form class="modal-form">
+            <input type="text" class="modal-inputt" name="" ></form>
+          <form class="modal-form">
+            <input type="text" class="modal-inputt" name="" ></form>
+      </div>
     </div>
 </body>
 </html>
