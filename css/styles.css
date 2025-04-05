@@ -684,6 +684,9 @@ body {
     fill: #f4f4fd;
     border: none;
 }
+.policy {
+    color: #4d5ae5;
+}
 
 
 .btn-send {  
