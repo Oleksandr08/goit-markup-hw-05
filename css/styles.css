@@ -475,7 +475,7 @@ body {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .fly-btn {
-    
+    border: none;
     border-radius: 4px;
     padding: 8px 24px;
     min-width: 165px;
@@ -495,7 +495,7 @@ body {
 
 }
 .fly-icon {
-    border: none;
+    
     fill: #fff;
     margin-left: 16px;
   
