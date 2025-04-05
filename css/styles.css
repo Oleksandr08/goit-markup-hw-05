@@ -470,7 +470,7 @@ body {
     line-height: 200%;
     letter-spacing: 0.04em;
     padding-left: 16px;
-    color: #fff;
+    color: #ffffff;
 
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
@@ -478,7 +478,7 @@ body {
     
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -495,7 +495,9 @@ body {
 
 }
 .fly-icon {
+    border: none;
     fill: #fff;
+    margin-left: 16px;
   
 }
 .fly-btn:hover,
